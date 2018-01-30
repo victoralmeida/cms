@@ -1,5 +1,5 @@
 <?php   // REQUIRES SCRIPTS
-	
+
 	echo '<style>';
 		require('css/script.css');
 	echo '</style>';
@@ -14,7 +14,7 @@
 <?php  // REQUIRES VIEWS
 
 	require('views/menu.html');
-	require('views/content1.html');
-	require('views/content2.html');
+	require('views/content1.php');
+	require('views/novoCliente.php');
 
 ?>

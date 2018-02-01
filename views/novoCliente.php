@@ -1,9 +1,6 @@
 <div id="novoCliente" class="content">
-	<form>
-		<input type="text" name="" value="">
-		<input type="button" name="" value="Submit">
+	<form action="index.php" method="POST">
+		<input type="text" name="nomeCliente" value="teste">
+		<input type="submit" value="Submit">
 	</form>
-
-
-
 </div>

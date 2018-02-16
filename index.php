@@ -18,13 +18,3 @@
 	require('views/novoCliente.php');
 
 ?>
-
-<?php //Cria diretorios
-
-	if (!isset($_POST['nomeCliente']))
-  	$nomeCliente = null;
-	else{
-		$nomeCliente = $_POST['nomeCliente'];
-		echo $nomeCliente;
-	}
-?>
